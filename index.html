@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire avec Désactivation Dynamique</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">              
+      <h1 id="score"></h1>    
+      <img id="mainImage" src="../assets/france.jpg" alt="" />
+      <form id="monFormulaire">
+        <p id="error"></p>
+        <label for="responce">Entrer le nom du pays:</label>
+        <input type="text" id="responce" name="responce" required />
+        <div>          
+        <button type="button" id="boutonSubmit">valider</button>
+      </form>
+      <button type="button" id="demandeIndice">Je veux 1 indice</button>
+      <p id="indice">Indice :</p>        
+       
+      <script src="./js/app.js"></script>
+    </div>
+  </body>
+</html>
