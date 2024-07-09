@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ERROR.innerText = "";
   }
   function displayImage() {
-    MAIN_IMAGE.src = "../assets/" + country[index].pays.toLowerCase() + ".jpg";
+    MAIN_IMAGE.src = "assets/" + country[index].pays.toLowerCase() + ".jpg";
   }
 
   function verification() {
